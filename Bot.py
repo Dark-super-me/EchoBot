@@ -1,39 +1,5 @@
 
-WRITE A POST
-Karan Batra
-Karan Batra
-FOLLOW
-Full Stack Developer | Software Engineering Mentor
-Part 1: How to create a Telegram Bot in Python in under 10 minutes
-Published Sep 03, 2020
-Part 1: How to create a Telegram Bot in Python in under 10 minutes
-In this short tutorial, I will walk you through the steps for creating your own Telegram bot in python right from scratch.
-
-Let us build a Telegram Bot that echoes the messages that we send to it. In the next part, we will learn how to deploy the bot on websites like Heroku.
-
-Step 1: Set up your Bot’s profile
-To set up a new bot, start the conversation with BotFather (@BotFather).
-BotFather will help us in creating the new bot.
-
-Search for @botfather in Telegram.
-2.png
-
-Start your conversation by pressing the Start button.
-3.png
-
-Create the bot by running /newbot command
-4.png
-
-Enter the Display Name and User Name for the bot.
-5.png
-
-BotFather will send you a message with the token
-6.jpeg
-
-DISCLAIMER — Keep access token of the bot securely. Anyone with your token can manipulate this bot.
-
-Step 2: Coding the bot
-Open up the terminal and start by creating a new directory first.
+# Thanks to google for  codes 
 
 mkdir echo-bot/
 cd echo-bot/
