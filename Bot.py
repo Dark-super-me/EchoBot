@@ -1,34 +1,4 @@
 
-# Thanks to google for  codes 
-
-mkdir echo-bot/
-cd echo-bot/
-We will be using pipenv virtual environment. Make sure that you have pipenv installed in your system.
-
-Pipenv is a dependency manager for Python projects.
-
-We will be using python-telegram-bot package for interacting with Telegram API. Install the package using the following command.
-
-pipenv install python-telegram-bot
-Create a new file bot.py and paste the following code in it.
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# This program is dedicated to the public domain under the CC0 license.
-
-"""
-Simple Bot to reply to Telegram messages.
-
-First, a few handler functions are defined. Then, those functions are passed to
-the Dispatcher and registered at their respective places.
-Then, the bot is started and runs until we press Ctrl-C on the command line.
-
-Usage:
-Basic Echobot example, repeats messages.
-Press Ctrl-C on the command line or send a signal to the process to stop the
-bot.
-"""
-
 import logging
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
